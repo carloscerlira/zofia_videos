@@ -1,0 +1,63 @@
+[
+    {
+    "topic": "Matemáticas",
+    "subtopic": "Geometría",  
+    "options": [
+      {
+        "id": "a",
+        "generated": [
+          {"type": "LatexInline", "content":"-2"}
+        ]
+      },
+      {
+        "id": "b",
+        "generated": [
+          {"type": "LatexInline", "content":"-\\frac{1}{2}"}
+        ]
+      },
+      {
+        "id": "c",
+        "generated": [  
+          {"type": "LatexInline", "content":"\\frac{3}{2}"}
+        ]
+      },
+      {
+        "id": "d",
+        "generated": [
+          {"type": "LatexInline", "content":"2"}
+        ]
+      }
+    ],
+    "correctId": "d",
+    "question": [
+        {"type": "text", "content": "Calcula la pendiente de la recta cuya función es"},
+        {"type": "MathBlock", "content": "2y - 4x + 3 = 0"}
+    ],
+    "generated": [
+        {
+            "type": "text",
+            "content": "The "
+        },
+        {
+            "type": "textbold",
+            "content": "\textbf{equation}"
+        },
+        {
+            "type": "LatexInline",
+            "content": "\\(x+2\\)"
+        },
+        {
+            "type": "text",
+            "content": " becomes "
+        },
+        {
+            "type": "MathBlock",
+            "content": "\\ce{H2O3}"
+        },
+        {
+            "type": "LatexInline",
+            "content": "\\ce{H2O3}"
+        }
+    ]
+  }
+]
